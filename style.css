@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #bbd0ff;
+}
+
+
+
+
+
+.gif{
+    /* background-color: cyan; */
+    width:120px;
+    height: 120px;
+    background-image: url("https://media.giphy.com/media/Ri98Ht4Q9hczOeHC1E/giphy.gif");
+    background-size: cover; 
+    
+}
+
+.content{
+    /* background-color: indianred; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    
+}
+
+.yes{
+  
+    width: 55px;
+    height: 30px;
+    position: absolute;
+    left: 45%;
+    top: 65%;
+
+}
+.no{
+    
+    width: 55px;
+    height: 30px;
+    position: absolute;
+    left: 51%;
+    top: 65%;
+
+}
+
+button{
+    width: 100%;
+    height: 100%;
+    border-radius: 15%;
+    border-style: none;
+    background-color: #c8b6ff;
+    font-size: 25px;
+    color: white;
+    font-family: "Concert One", sans-serif;
+    
+
+}
